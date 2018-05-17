@@ -1,0 +1,4 @@
+org\myorg\demo\BaseEntity.class
+org\myorg\demo\HomeController.class
+org\myorg\demo\Application.class
+org\myorg\demo\BaseEntityRepository.class
