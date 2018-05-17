@@ -79,7 +79,7 @@
         <version>2.21.0</version>
         <configuration>
           <includes>
-            <include>test.Sample.java</include>
+            <include>test.Selenium.java</include>
           </includes>
         </configuration>
       </plugin>
