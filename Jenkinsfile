@@ -8,7 +8,7 @@ stages{
 			//sh 'cd ${WORKSPACE}'
 			//sh 'rm -rf *'
 			echo "Configuration build runing for branch ${env.Branch_Name}"
-      checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], 
+      checkout([$class: 'GitSCM', branches: [[name: "*/${params.branch}"]], doGenerateSubmoduleConfigurations: false, extensions: [], 
       submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'test2', url: 'git@github.com:kumar130/hiring.git']]])
 		}
 	}
